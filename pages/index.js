@@ -98,7 +98,7 @@ export default function components() {
                 <Card className="max-w-md ">
                     <CardHeader>
                         <div className="flex items-center">
-                            <h2 className="text-2xl font-bold">上传照片，AI生成朋友圈文案</h2>
+                            <h2 className="text-2xl font-bold">消费降级</h2>
                         </div>
                     </CardHeader>
                 <div className="w-full max-w-md px-2 py-2">
@@ -119,7 +119,7 @@ export default function components() {
                                 onChange={previewImage}
                             />
                             <Button type="submit" variant="dark" disabled={loading || compressing}>
-                                {compressing ? '识别图像中' : loading ? '识别图像中' : '朋友圈文案生成'}
+                                {compressing ? '识别图像中' : loading ? '识别图像中' : '平替商品推荐'}
                             </Button>
                         </div>
                     </form>
@@ -130,7 +130,7 @@ export default function components() {
                                 {compressing
                                     ? '👩🏻'
                                     : loading
-                                    ? '朋友圈文案生成中...'
+                                    ? '平替商品推荐中...'
                                     : result.error
                                     ? `好像我没看懂照片，请重试或换一张图片！`
                                     : result.data ||
