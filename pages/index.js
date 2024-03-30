@@ -98,7 +98,7 @@ export default function components() {
                 <Card className="max-w-md ">
                     <CardHeader>
                         <div className="flex items-center">
-                            <h2 className="text-2xl font-bold">消费降级，上传商品图，推荐平替商品</h2>
+                            <h2 className="text-2xl font-bold">消费降级，上传商品图，推荐平替商品~</h2>
                         </div>
                     </CardHeader>
                 <div className="w-full max-w-md px-2 py-2">
@@ -134,7 +134,7 @@ export default function components() {
                                     : result.error
                                     ? `好像我没看懂照片，请重试或换一张图片！`
                                     : result.data ||
-                                      '原商品名：耐克 Air Max 90 男款运动鞋 \n替代商品名：鸿星尔克 XY-1001 运动鞋'}
+                                      '原商品名：耐克 Air Max 90 男款运动鞋 \n\n替代商品名：鸿星尔克 XY-1001 运动鞋'}
                             </p>
                         </div>
                         {compressing ? (
