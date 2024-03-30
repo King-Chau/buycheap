@@ -133,8 +133,8 @@ export default function components() {
                                     ? '平替商品推荐中...'
                                     : result.error
                                     ? `好像我没看懂照片，请重试或换一张图片！`
-                                    : result.data ||
-                                      '原商品：耐克 Air Max 90 男款运动鞋 <br/>平替商品：鸿星尔克 XY-1001 运动鞋'}
+                                    : (result.data ||
+                                      '原商品：耐克 Air Max 90 男款运动鞋 \n平替商品：鸿星尔克 XY-1001 运动鞋')}
                             </p>
                         </div>
                         {compressing ? (
