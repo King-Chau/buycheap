@@ -126,7 +126,7 @@ export default function components() {
                 </div>
                     <CardContent>
                         <div className="mt-4 rounded-lg p-4">
-                            <p className="ml-2 text-lg" style={{ textAlign: 'center' }}>
+                            <p className="ml-2 text-lg" style="text-align:center;white-space:pre-line">
                                 {compressing
                                     ? '👩🏻'
                                     : loading
