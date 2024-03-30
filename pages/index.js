@@ -126,7 +126,7 @@ export default function components() {
                 </div>
                     <CardContent>
                         <div className="mt-4 rounded-lg p-4">
-                            <p className="ml-2 text-lg" style="text-align:center;white-space:pre-line">
+                            <p className="ml-2 text-lg" style={{ textAlign: 'center', whiteSpace: 'pre-line' }}>
                                 {compressing
                                     ? '👩🏻'
                                     : loading
@@ -134,7 +134,7 @@ export default function components() {
                                     : result.error
                                     ? `好像我没看懂照片，请重试或换一张图片！`
                                     : (result.data ||
-                                      '原商品：耐克 Air Max 90 男款运动鞋 \n\n平替商品：鸿星尔克 XY-1001 运动鞋')}
+                                      '原商品：耐克 Air Max 90 男款运动鞋 \n平替商品：鸿星尔克 XY-1001 运动鞋')}
                             </p>
                         </div>
                         {compressing ? (
