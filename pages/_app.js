@@ -1,4 +1,4 @@
-import '../styles/globals.css'Add commentMore actions
+import '../styles/globals.css'
 import { Fragment } from 'react'
 import { Analytics } from '@vercel/analytics/react';
 
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
             <Component {...pageProps} />
             <Analytics />
         </Fragment>
-    )Add commentMore actions
+    )
 }
 
 export default MyApp
